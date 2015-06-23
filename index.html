@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>SaiRC</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>		
+		<script src="genScript.js"></script>
+	</head>
+
+	<body>
+		<div id="window">
+			<div id="chatbox" style="overflow: auto;"></div>
+			<div id="text_input">
+				<form type="text" onsubmit="ajax_post()" id="main_form">
+					<input id="chat_line" type="text" name="msgInput" placeholder="Type here...">
+					<input id="submit_button" type="submit"></div>
+				</form>
+			</div>
+		</div>
+
+		<p id="status"></p>
+		<div id="sidebar">
+			<div id="toolbox"></div>
+			<div id="menu_pane"></div>
+		</div>
+	</body>
+</html>

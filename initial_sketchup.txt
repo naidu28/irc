@@ -1,0 +1,62 @@
+Brainstorming:
+
+> node.js
+> lightweight - single paged
+> I can host it on my portfolio website
+> Intuitive
+
+
+
+Ideals:
+
+> Logic is handled server-side
+> Design is simple and straightforward
+
+
+
+Requirements:
+
+> Saves prefernces via cookies or caching
+> Login feature
+> Server-side database connections
+> Deployment logic is crisp and separate from back-end logic
+> Useable in all modern browsers
+
+
+
+Project Timeline:
+
+> Night one (06/17/2015):
+	- Write up wireframe
+	- Begin looking at node.js modules that would help w/ setting up an IRC
+	- Write some front-end for the page
+
+> Night two (06/18/2015):
+	- Write front-end scripts and create basic design
+	- Highlight areas where server-side will need to interact with client-side
+
+> Night three (06/19/2015):
+	- Write basic server-side logic for one feature
+	- Keep the logic for features distinct and in separate files (to test them individually)
+
+> Night four (06/20/2015):
+	- Integration
+
+> Night five (06/21/2015):
+	- Integration
+
+
+
+Agile method: build most basic features first, then more difficult ones later
+
+
+
+Features list (in order of decreasing priority):
+
+> Open IRC chat via guest accounts and nicknames
+	- Send app a message, it gets posted in a feed within 1 second
+	- Make it work first for 1 user, then 2 users, then as many as we can have
+	- Able to create and save a profile
+	- Able to add friends, delete friends
+	- Able to private message people
+	- I just created my own social media... bitch

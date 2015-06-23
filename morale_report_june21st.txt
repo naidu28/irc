@@ -1,0 +1,16 @@
+state of affairs (IRC chat):
+
+positive milestones:
+
+- front end complete
+- front end connecting to server.js locally
+- server.js issuing a response
+- gained understanding of client-server model and how internet file transfer works
+
+current challenges:
+
+- server response returns entire server.js script instead of printing a confirmation message
+	(likelihood is that it is a problem caused by using xampp b/c it is designed for php, not js backend)
+- as a result I decided to skip ahead to the step where I would host the current iteration of my website; difficulty in understanding how exactly web hosting via something like Heroku and Openshift works vs private domain
+- Signed up w/ Openshift, Namecheap, and Heroku (previously)
+- Confused as hell about which to use and how to use them

@@ -1,0 +1,27 @@
+{
+  "name": "irc_chat",
+  "version": "1.0.0",
+  "description": "Coolest webchat client ever",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http": "0.0.x"
+  },
+  "engines": {
+    "node": "0.12.2"
+  },
+  "repository": {
+    "type": "git",
+    "url":
+  },
+  "keywords": [
+    "irc",
+    "sairc",
+    "http"
+  ],
+  "author": "Sai Naidu",
+  "license": "MIT"
+}

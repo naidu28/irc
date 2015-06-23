@@ -1,0 +1,80 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+#window {
+	position: fixed;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 5px;
+	width: 70vw;
+	height: 80vh;
+	margin-top: 5%;
+	margin-left: 5%;
+	background-color: black;
+}
+
+#chatbox {
+	position: absolute;
+	display: block;
+	border-radius: 5px;
+	background-color: gray;
+	width: 66vw;
+	height: 70vh;
+	margin-top: 2vh;
+	margin-left: 2vw;
+}
+
+#text_input {
+	position: absolute;
+	display: block;
+	margin-top: 73vh;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#chat_line {
+	display: inline;
+	width: 61.5vw;
+	margin-left: 2vw;
+	margin-top: .2vh;
+	border-radius: 5px;
+	background-color: gray;
+	height: 3vh;
+	overflow: hidden;
+	text-align: right;
+}
+
+#chat_line::-webkit-input-placeholder { /* WebKit browsers */
+    color:    black;
+}
+#chat_line:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color:    black;
+   opacity:  1;
+}
+#chat_line::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color:    black;
+   opacity:  1;
+}
+#chat_line:-ms-input-placeholder { /* Internet Explorer 10+ */
+   color:    black;
+}
+
+#submit_button {
+	position: absolute;
+	display: inline;
+	background-color: #575757;
+	margin-left: 64.5vw;
+	margin-top: -3.6vh;
+	border-style: none;
+	border-radius: 5px;
+	height: 4vh;
+	width: 3.5vw;
+	transition: background-color 1s ease;
+}
+
+#submit_button:hover {
+	background-color: #57CDFF;
+}
